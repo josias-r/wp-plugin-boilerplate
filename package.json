@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "wpds-scripts start --entryFiles={src/javascripts/main.js,src/blocks/guten-block.js}",
-    "build": "wpds-scripts build --entryFiles={src/javascripts/main.js,src/blocks/guten-block.js}"
+    "start": "wpds-scripts start --entryFiles=src/blocks/guten-block.js",
+    "build": "wpds-scripts build --entryFiles=src/blocks/guten-block.js"
   },
   "author": "josias-r",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
-    "@josias-r/wpds-scripts": "^2.1.1",
-    "@wordpress/eslint-plugin": "^3.1.0"
+    "@josias-r/wpds-scripts": "^2.1.2",
+    "@wordpress/eslint-plugin": "^3.1.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-prettier": "^1.1.1"
   }
 }
