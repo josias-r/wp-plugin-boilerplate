@@ -1,30 +1,52 @@
 const { registerBlockType } = wp.blocks;
-const { withSelect } = wp.data;
 
 registerBlockType("boilerplate-slug/example-block", {
-  title: "Example: last post",
-  icon: "megaphone",
-  category: "widgets",
-
-  edit: withSelect(select => {
-    return {
-      posts: select("core").getEntityRecords("postType", "post")
-    };
-  })(({ posts, className }) => {
-    if (!posts) {
-      return "Loading...";
+  title: "Example Block",
+  icon: "smiley",
+  category: "common",
+  attributes: {
+    counter: {
+      type: "number"
     }
+  },
 
-    if (posts && posts.length === 0) {
-      return "No posts";
-    }
-
-    const post = posts[0];
-
+  edit: ({ attributes, setAttributes }) => {
+    const counter = attributes.counter || 0;
     return (
-      <a className={className} href={post.link}>
-        {post.title.rendered}
-      </a>
+      <button
+        onClick={() => {
+          setAttributes({ counter: counter + 1 });
+        }}
+        style={{
+          padding: "1em",
+          backgroundColor: "rgb(41, 41, 41)",
+          border: "none",
+          color: "white",
+          borderRadius: 5
+        }}
+      >
+        {counter
+          ? "You clicked me so many times: " + counter
+          : "You can click me!"}
+      </button>
     );
-  })
+  },
+  save: ({ attributes }) => {
+    return (
+      <div>
+        Someone clicked so many times:
+        <span
+          style={{
+            color: "orange",
+            padding: 5,
+            marginLeft: 10,
+            backgroundColor: "rgb(41, 41, 41)",
+            borderRadius: 5
+          }}
+        >
+          {attributes.counter || "0"}
+        </span>{" "}
+      </div>
+    );
+  }
 });
