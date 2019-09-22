@@ -1,7 +1,7 @@
 const { registerBlockType } = wp.blocks;
 const { withSelect } = wp.data;
 
-registerBlockType("gutenberg-examples/example-05-dynamic", {
+registerBlockType("boilerplate-slug/example-block", {
   title: "Example: last post",
   icon: "megaphone",
   category: "widgets",

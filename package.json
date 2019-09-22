@@ -1,18 +1,17 @@
 {
   "name": "boilerplate-slug",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "wpds-scripts start --entryFiles=src/blocks/guten-block.js",
-    "build": "wpds-scripts build --entryFiles=src/blocks/guten-block.js"
+    "start": "wpds-scripts start",
+    "build": "wpds-scripts build"
   },
   "author": "josias-r",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
-    "@josias-r/wpds-scripts": "^2.1.2",
+    "@josias-r/wpds-scripts": "^3.1.0",
     "@wordpress/eslint-plugin": "^3.1.0",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
