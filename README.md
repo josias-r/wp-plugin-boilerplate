@@ -1,8 +1,10 @@
-# WordPress Theme Boilerplate
+# WordPress Plugin Boilerplate
 
 Webpack dev server, Sass, Barba JS, GoLight JS, Prettier
 
-Conveniently develop WordPress themes with ES6 and SCSS and watch your page update live.
+Conveniently develop WordPress plugins with ES6 and SCSS and watch your page update live.
+
+_You might also be interested in: [wp-theme-boilerplate](https://github.com/josias-r/wp-theme-boilerplate)_
 
 ### Features
 
