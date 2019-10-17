@@ -20,14 +20,14 @@ _You might also be interested in: [wp-theme-boilerplate](https://github.com/josi
 
 ### Installation
 
-1. Clone this repo (or create your own from it) into your WordPress plugin folder.
+1. Clone this repo (or create your own from it) into your WordPress plugin folder (you should rename the folder).
 2. Inside the cloned folder run `npm i` and `composer install` to install all the packages (you might also want to update the packages).
 3. Run find and replace (`cmd/ctrl` + `shift` + `f` in atom and vscode) and replace all `boilerplate-slug` and `boilerplate_slug` instances with your own slug.
-4. Rename the `wp-plugin-boilerplate.php` file (you should also rename the folder) with your own slug and start coding!
+4. Rename the `wp-plugin-boilerplate.php` file with your own slug and start coding!
 
 > Note: JS/SCSS/PHP Linters are preinstalled and will help you while developing, but ONLY if you have configured your editor correctly. Prettier and PHP_CodeSniffer (phpcs) can format you code aswell according to the linting rules.
 
-> Note: This Boilerplate comes with the JavaScript libraries `Barba JS` and `GoLight JS` preinstalled. Don't hesitate to write your own script.
+> Note: This Boilerplate comes with the JavaScript libraries `Barba JS` and `GoLight JS` preinstalled. Don't hesitate to remove them and write your own script.
 
 ### Usage
 
