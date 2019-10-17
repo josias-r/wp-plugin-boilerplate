@@ -1,0 +1,22 @@
+{
+    "name": "josias-r/wp-plugin-boilerplate",
+    "description": "WordPress Plugin Boilerplate by josias-r",
+    "type": "project",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "josias-r",
+            "email": "contact@josias.me"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "squizlabs/php_codesniffer": "^3.5",
+        "wp-coding-standards/wpcs": "^2.1"
+    },
+    "scripts": {
+        "post-install-cmd": "./vendor/bin/phpcs --config-set default_standard WordPress"
+    }
+}

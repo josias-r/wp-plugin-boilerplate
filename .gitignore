@@ -1,5 +1,8 @@
 .DS_Store
 
+#composer
+/vendor/
+
 # Logs
 logs
 *.log
