@@ -17,6 +17,6 @@
         "wp-coding-standards/wpcs": "^2.1"
     },
     "scripts": {
-        "post-install-cmd": "./vendor/bin/phpcs --config-set default_standard WordPress"
+        "post-install-cmd": "phpcs --config-set default_standard WordPress"
     }
 }
