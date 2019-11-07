@@ -1,10 +1,10 @@
 <?php
 /**
- * WordPress Plugin Boilerplate
+ * WordPack Plugin Boilerplate
  *
  * @package boilerplate_slug
  *
- * Plugin Name: WordPress Plugin Boilerplate
+ * Plugin Name: WordPack Plugin Boilerplate
  * Description: Quick and easy plugin development
  * Version: 1.0.0
  * Author: Josias Ribi

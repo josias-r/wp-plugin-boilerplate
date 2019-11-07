@@ -1,4 +1,6 @@
-# WordPress Plugin Boilerplate
+# WordPack Plugin Boilerplate
+
+A webpack dev server to work with WordPress plugins.
 
 Webpack dev server, Sass, Barba JS, GoLight JS, Prettier, WordPress Coding Standard
 
