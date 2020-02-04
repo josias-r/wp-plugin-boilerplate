@@ -2,8 +2,7 @@
     "name": "josias-r/wp-plugin-boilerplate",
     "description": "WordPack Plugin Boilerplate by josias-r",
     "type": "project",
-    "require": {
-    },
+    "require": {},
     "license": "MIT",
     "authors": [
         {
@@ -18,5 +17,6 @@
     },
     "scripts": {
         "post-install-cmd": "phpcs --config-set default_standard WordPress"
-    }
+    },
+    "version": "1.1.0"
 }
