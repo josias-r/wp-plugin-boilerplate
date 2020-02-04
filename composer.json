@@ -18,5 +18,5 @@
     "scripts": {
         "post-install-cmd": "phpcs --config-set default_standard WordPress"
     },
-    "version": "1.1.0"
+    "version": "2.1.1"
 }
