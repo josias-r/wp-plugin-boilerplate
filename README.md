@@ -18,7 +18,7 @@ _You might also be interested in: [wp-theme-boilerplate](https://github.com/josi
 - **Linters**: [Prettier](https://prettier.io/), [ESLint](https://eslint.org/) and [stylelint](https://stylelint.io/) will help you while developing. (Make sure you have the corresponding packages installed for your editor)
 - **WordPress PHP Coding Standard**: The WordPress coding standard for phpcs is installed with composer and will guide you to code according to the rules set by WordPress.
   > Note: You should install the corresponding packages for your Editor to make full use of this feature.
-- **Customizable**: Most of the above features origin from wpds-scripts which allows you to pass custom settings for your environment. [see configuration](#configuration)
+- **Customizable**: Most of the above features origin from wpds-scripts which allows you to pass custom settings for your environment. [see configuration](https://github.com/josias-r/wpds-scripts#config-file-configuration)
 
 ### Installation
 
