@@ -6,8 +6,8 @@ registerBlockType("boilerplate-slug/example-block", {
   category: "common",
   attributes: {
     counter: {
-      type: "number"
-    }
+      type: "number",
+    },
   },
 
   edit: ({ attributes, setAttributes }) => {
@@ -22,7 +22,7 @@ registerBlockType("boilerplate-slug/example-block", {
           backgroundColor: "rgb(41, 41, 41)",
           border: "none",
           color: "white",
-          borderRadius: 5
+          borderRadius: 5,
         }}
       >
         {counter
@@ -41,12 +41,12 @@ registerBlockType("boilerplate-slug/example-block", {
             padding: 5,
             marginLeft: 10,
             backgroundColor: "rgb(41, 41, 41)",
-            borderRadius: 5
+            borderRadius: 5,
           }}
         >
           {attributes.counter || "0"}
-        </span>{" "}
+        </span>
       </div>
     );
-  }
+  },
 });
